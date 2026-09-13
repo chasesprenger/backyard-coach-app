@@ -4,30 +4,49 @@
 [![Version: v1.0.0](https://img.shields.io/badge/Release-v1.0.0-emerald?style=for-the-badge)](https://github.com/chasesprenger/backyard-coach-app/releases)
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
 
-The official standalone desktop downloads and release distribution repository for **Backyard Coach** — the retro-inspired, tactile tactical football coaching and sideline synchronization platform built for flag football, youth leagues, and backyard gridiron.
+The official standalone desktop downloads and release distribution hub for **Backyard Coach** — the retro-inspired, tactile tactical football coaching and sideline synchronization platform built for flag football, youth leagues, and backyard gridiron.
 
 ---
 
 ## 🚀 Instant Download & Installation
 
 ### 🍏 macOS (Apple Silicon & Intel)
-1. Download the latest installer: [**`Backyard Coach-1.0.0-arm64.dmg`**](https://github.com/chasesprenger/backyard-coach-app/releases/latest)
-2. Double-click the `.dmg` file.
+1. Download the latest installer: [**`Backyard-Coach-1.0.0-arm64.dmg`**](https://github.com/chasesprenger/backyard-coach-app/releases/download/v1.0.0/Backyard-Coach-1.0.0-arm64.dmg)
+2. Double-click the downloaded `.dmg` file to open it.
 3. Drag **Backyard Coach** into your **Applications** folder.
-4. Launch **Backyard Coach** from Launchpad or Spotlight.
-   > *Note for macOS Gatekeeper*: On first launch, if macOS alerts you that the developer is unverified, simply right-click (or Control-click) the app icon and select **Open**, then click **Open** in the dialog.
+4. Launch **Backyard Coach** from Launchpad or Applications.
+
+#### ⚠️ macOS Gatekeeper / "App is Damaged" First-Time Notice
+Because Backyard Coach is an independent, non-App-Store application distributed directly outside Apple's paid developer program, macOS automatically applies a download quarantine flag. This may trigger an alert saying the app *"is damaged and can't be opened"* or from an unidentified developer.
+
+The app is **completely undamaged and safe**. To launch it, simply run this one-line command in your **Terminal** app:
+```bash
+xattr -cr "/Applications/Backyard Coach.app"
+```
+*(Or navigate to **System Settings > Privacy & Security**, scroll down to the **Security** section, and click **Open Anyway**).*
+
+---
 
 ### 🪟 Windows
 1. Download the installer: [**`Backyard-Coach-Setup-1.0.0.exe`**](https://github.com/chasesprenger/backyard-coach-app/releases/latest)
 2. Run the installer and follow the on-screen prompts.
 3. Launch Backyard Coach from your Start Menu or Desktop shortcut.
 
+---
+
 ### 🌐 Free Web Version (Zero Install Required)
-Prefer playing right in your browser?
+Prefer running Backyard Coach directly in your browser?
 Visit the live, authorized web application anytime:  
 👉 **[https://backyard-coach.surge.sh](https://backyard-coach.surge.sh)**
 
-*Tip: You can also click "Install App" or "Add to Dock / Home Screen" in your browser (Safari / Chrome) for a zero-installation native app experience.*
+*Tip: You can also click "Install App" or "Add to Dock / Home Screen" in your browser (Safari / Chrome) for a zero-installation native desktop experience.*
+
+---
+
+## ℹ️ About the "Source Code" Links on GitHub Releases
+GitHub's platform automatically attaches **`Source code (zip)`** and **`Source code (tar.gz)`** download links to every release tag across all repositories. 
+
+Please note that this public repository contains **zero application source code** — clicking those links downloads only this documentation and release notes. The application source code, architecture, and algorithms are proprietary and confidential.
 
 ---
 
