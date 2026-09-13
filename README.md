@@ -28,7 +28,7 @@ xattr -cr "/Applications/Backyard Coach.app"
 ---
 
 ### 🪟 Windows
-1. Download the installer: [**`Backyard-Coach-Setup-1.0.0.exe`**](https://github.com/chasesprenger/backyard-coach-app/releases/latest)
+1. Download the installer: [**`Backyard-Coach-Setup-1.0.0.exe`**](https://github.com/chasesprenger/backyard-coach-app/releases/download/v1.0.0/Backyard-Coach-Setup-1.0.0.exe)
 2. Run the installer and follow the on-screen prompts.
 3. Launch Backyard Coach from your Start Menu or Desktop shortcut.
 
